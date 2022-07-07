@@ -2,10 +2,19 @@
 *   Problem description
 */
 
-/// Proposed solution idea
 void main() {
-  // solution
+  print('-----------------------------');
+  final start = DateTime.now();
+  solution();
+  final end = DateTime.now();
+  print(
+    'Running time: ${end.difference(start).inMilliseconds} milliseconds',
+  );
+  print('-----------------------------');
 }
+
+/// Proposed solution idea
+void solution() {}
 
 /*
 *   Overview: https://projecteuler.net/overview=xxx
