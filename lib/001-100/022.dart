@@ -19,7 +19,6 @@ void main() {
   executeAndMeasure(solution);
 }
 
-/// Proposed solution idea
 void solution() {
   final file = File('./assets/001-100/022.txt');
   final content = file.readAsStringSync();
@@ -40,9 +39,3 @@ final charScores = {
 int alphabetValue(String name) {
   return name.split('').map((e) => charScores[e]!).reduce((a, b) => a + b);
 }
-
-/*
-*   Overview: https://projecteuler.net/overview=xxx
-*
-*   Comments after reading the overview
-*/
